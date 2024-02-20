@@ -7,7 +7,7 @@ void main() {
 
     System.out.println("=======================");
 
-    for(int x : nums) System.out.println(x);
+    for(var x : nums) System.out.println(x);
 
     int[][] coordinates = {{2,3}, {4,2}, {8,2}, {9,2}};
 }
